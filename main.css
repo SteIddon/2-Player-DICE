@@ -86,7 +86,7 @@ body {
     height: 50px;
     width: 150px;
     border: 1px solid black;
-    bottom: 200px;
+    bottom: 250px;
     right: 800px;
 }
 
@@ -101,9 +101,9 @@ body {
 
 #result {
     position: fixed;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 1px solid black;
     bottom: 400px;
-    right: 800px;
+    right: 775px;
 }
