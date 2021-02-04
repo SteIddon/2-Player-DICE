@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#playerone {
+    background-color: gold;
+    height:100%;
+    width:50%;
+    position: fixed;
+    left:0.1px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#playertwo {
+    height:100%;
+    width:50%;
+    position: fixed;
+    right:0.1px;
+    border: 3px solid black;
+    text-align: center;
+}
+#nameone {
+    font-family: cursive;
+    font-size: 10em;
+}
+#nametwo {
+    font-family: cursive;
+    font-size: 10em;
+}
+
+#onetotal {
+    text-align: center;
+    border: 3px solid black;
+    bottom: 400px;
+    position:fixed;
+    left: 300px;
+    height: 200px;
+    width: 300px;
+    font-size: 5em;
+}
+
+#onecurrent {
+    position:fixed;
+    bottom: 100px;
+    left: 300px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 5em;
+}
+#twototal {
+    text-align: center;
+    border: 3px solid black;
+    bottom: 400px;
+    position:fixed;
+    right: 300px;
+    height: 200px;
+    width: 300px;
+    font-size: 5em;
+}
+#twocurrent {
+    position:fixed;
+    bottom: 100px;
+    right: 300px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 5em;
+}
+
+#newgame {
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    top: 200px;
+    right: 800px;
+}
+
+#roll {
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    bottom: 200px;
+    right: 800px;
+}
+
+#hold {
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    bottom: 150px;
+    right: 800px;
+}
+
+#result {
+    position: fixed;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    bottom: 400px;
+    right: 800px;
+}
