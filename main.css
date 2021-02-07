@@ -4,12 +4,12 @@ body {
 }
 
 #playerone {
-    background-color: gold;
+    background-color: red;
     height:100%;
     width:50%;
     position: fixed;
     left:0.1px;
-    border: 3px solid black;
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
     width:50%;
     position: fixed;
     right:0.1px;
-    border: 3px solid black;
+    border: 1px solid black;
     text-align: center;
 }
 #nameone {
@@ -85,7 +85,9 @@ body {
     width: 150px;
     border: 1px solid black;
     top: 200px;
-    right: 800px;
+    right: 880px;
+    background-color: teal;
+    color: thistle;    
 }
 
 #roll {
@@ -97,8 +99,9 @@ body {
     width: 150px;
     border: 1px solid black;
     bottom: 250px;
-    right: 800px;
-}
+    right: 880px;
+    background-color: teal;
+    color: thistle; }
 
 #hold {
     background-color:transparent;
@@ -109,8 +112,9 @@ body {
     width: 150px;
     border: 1px solid black;
     bottom: 150px;
-    right: 800px;
-}
+    right: 880px;
+    background-color: teal;
+    color: thistle; }
 
 #result {
     position: fixed;
@@ -118,5 +122,5 @@ body {
     width: 200px;
     border: 1px solid black;
     bottom: 400px;
-    right: 775px;
+    right: 860px;
 }
