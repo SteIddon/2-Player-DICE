@@ -44,7 +44,7 @@ diceRoll.addEventListener("click", () => {
 newGame.addEventListener("click", () => {
     if (turnCount === 1) {
         turnCount = 0
-        divOne.style.backgroundColor = "gold"
+        divOne.style.backgroundColor = "red"
         divTwo.style.backgroundColor = "white"
     }
     diceArr1 = [];
@@ -79,10 +79,10 @@ function rollDiceTwo() {
 holdScore.addEventListener("click", () => {
     if (turnCount === 0) {
         divOne.style.backgroundColor = "white"
-        divTwo.style.backgroundColor = "gold"
+        divTwo.style.backgroundColor = "red"
         turnCount = 1
     } else {
-        divOne.style.backgroundColor = "gold"
+        divOne.style.backgroundColor = "red"
         divTwo.style.backgroundColor = "white"
         turnCount = 0
     }
