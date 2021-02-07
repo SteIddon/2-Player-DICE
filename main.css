@@ -210,3 +210,46 @@ body {
           left: 5%;
       }
   }
+  @media (min-width: 1025px) and (max-width: 1500px) {
+    body {
+        position: fixed;    
+      }
+      #playerone, #playertwo {
+          font-size: 0.8em;
+      }
+      #newgame, #hold, #roll {
+          font-size: 1.2em;
+          height: 60px;
+          width: 120px;
+          right:46%;
+      }
+      #newgame {
+          top:20%;
+      }
+      #hold {
+          top: 75%;
+      }
+      #roll {
+          top: 62%;
+      }
+      #onecurrent, #onetotal, #twocurrent, #twototal {
+          height: 100px;
+          width: 300px;
+      }
+      #result {
+          right: 42%;
+          top: 32%;
+      }
+      #twocurrent, #twototal {
+          right: 5%;
+      }
+      #twototal, #onetotal {
+          top: 52%;
+      }
+      #twocurrent, #onecurrent {
+          top: 80%;
+      }
+      #onecurrent, #onetotal {
+          left: 5%;
+      }
+  }
